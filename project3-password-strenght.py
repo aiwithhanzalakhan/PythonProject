@@ -1,7 +1,7 @@
 import re 
 import streamlit as web
 
-web.set_page_config(page_title="Password Strenght Checker", page_icon="☄️" layout="centered")
+web.set_page_config(page_title="Password Strenght Checker", page_icon="☄️", layout="centered")
 
 #css
 
