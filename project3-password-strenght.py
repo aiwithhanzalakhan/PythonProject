@@ -44,7 +44,7 @@ def checkPasswordStrenght(password):
 
 
 
-    if score == 4
+    if score == 4:
         web.success("✅ Strong Password")
     elif score == 3:
         web.info("⚠️ Moderate Password - Consider improving security by adding more features")
