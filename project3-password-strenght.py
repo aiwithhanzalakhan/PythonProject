@@ -53,7 +53,7 @@ def checkPasswordStrenght(password):
 
     
     if feedback:
-        with web.expander(" Improve Your Password")
+        with web.expander(" Improve Your Password"):
             for item in feedback:
                 web.write(item)
 password = web.text_input("Enter your Password:", type="password", help="Ensure Your password is strong")
